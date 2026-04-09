@@ -1,0 +1,65 @@
+body {
+  background: linear-gradient(135deg, #141e30, #174d8a);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Card */
+.card-custom {
+  width: 350px;
+  border-radius: 20px;
+  border: none;
+  background: #ffffff;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+  transition: all 0.4s ease;
+}
+
+/* Animación hover */
+.card-custom:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 20px 45px rgba(0, 0, 0, 0.4);
+}
+
+/* Imagen perfil */
+.profile-img {
+  width: 170px;
+  height: 170px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #fff;
+  margin: -80px auto 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+/* Nombre */
+.card-title {
+  font-weight: bold;
+}
+
+/* Rol */
+.role {
+  color: #6c757d;
+  margin-bottom: 9px;
+}
+
+/* Descripción */
+.description {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+/* Botones */
+.social-btns a {
+  margin: 5px;
+  border-radius: 50px;
+  width: 45px;
+  height: 45px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+/* Hover botones */
+.social-btns a:hover {
+  transform: scale(1.2);
+}
